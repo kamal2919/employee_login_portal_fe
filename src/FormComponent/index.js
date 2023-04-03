@@ -66,6 +66,9 @@ export default function FormComponent (props){
 
         }catch(error){
             console.log(error);
+            alert("Invalid Email Id or Password");
+            setEmail("");
+            setPassword("");
         }
 
     }

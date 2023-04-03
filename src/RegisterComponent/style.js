@@ -85,4 +85,14 @@ export const StyledContainer = styled(Col)`
         font-size: 8px;
         color: red;
     }
+    @media(max-width:751px) and (min-width:600px){
+        .reg-wrap{
+            width:65%;
+        }
+    }
+    @media(max-width:599px) {
+        .reg-wrap{
+            width:75%;
+        }
+    }
 `;

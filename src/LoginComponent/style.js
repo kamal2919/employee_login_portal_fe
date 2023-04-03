@@ -23,4 +23,14 @@ export const StyledContainer = styled(Row)`
     .form-row{
         justify-content : center;
     }
+    @media(max-width:835px) and (min-width:550px){
+        max-width: 60vw;
+    }
+    @media(max-width:549px) and (min-width:4000px){
+        max-width: 80vw;
+    }
+    @media(max-width:399px){
+        max-width: 90vw;
+        margin-left: 3px;
+    }
 `;

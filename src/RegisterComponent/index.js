@@ -93,7 +93,7 @@ export default function RegisterComponent (props){
                 <Row className="g-0 employee-detail-div">
                     <Form onSubmit={handleRegister}>
                         <Row className="g-0 name-label">
-                            <Col className="g-0" lg={3} md={2}>
+                            <Col className="g-0" lg={3} md={2} sm={2}>
                             </Col>
                             <Col className="g-0">
                                 Employee Name <span style={{color:"red"}}>*</span>
@@ -104,7 +104,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 name-input">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 <input
@@ -119,7 +119,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 error-div">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 {nameErr.length > 0 
@@ -135,7 +135,7 @@ export default function RegisterComponent (props){
 
                         <Row className="g-0 email-label">
                             
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 Employee Email <span style={{color:"red"}}>*</span>
@@ -145,7 +145,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 email-input">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 <input
@@ -160,7 +160,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 error-div">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 {EmailErr.length > 0 
@@ -175,7 +175,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 phone-label">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 Employee Phone No. <span style={{color:"red"}}>*</span>
@@ -186,7 +186,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 phone-input">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 <input
@@ -201,7 +201,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 error-div">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 {phoneErr.length > 0 
@@ -216,7 +216,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 pass-label">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 Employee Password <span style={{color:"red"}}>*</span>
@@ -227,7 +227,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 pass-input">
-                         <Col className="g-0" lg={3} md={2}></Col>
+                         <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 <input
@@ -242,7 +242,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 error-div">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 {passErr.length > 0 
@@ -257,7 +257,7 @@ export default function RegisterComponent (props){
                         </Row>
 
                         <Row className="g-0 register-btn-div">
-                            <Col className="g-0" lg={3} md={2}></Col>
+                            <Col className="g-0" lg={3} md={2} sm={2}></Col>
                             
                             <Col className="g-0">
                                 <button type="submit" className="register-btn" style={{opacity : error == true ? '0.5' : '1'}}>
@@ -265,7 +265,7 @@ export default function RegisterComponent (props){
                                 </button>
                             </Col>
                             
-                            <Col className="g-0" lg={4} md={4}></Col>
+                            <Col className="g-0" lg={4} md={4} sm={4}></Col>
                             
                         </Row>
                     </Form>
